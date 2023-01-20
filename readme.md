@@ -1,25 +1,21 @@
-## Grocery Shooping List
+# 👨‍🏫 Grocery Shooping List via Console
+O presente projeto é sobre o desenvolvimento Back-End de uma lista de compras de supermercado para um usuário, utilizando a linguagem de programação Java e o framework Spring Boot. 
 
-# What We Will Build
-Created a hypothetical grocery shopping list for a user. We will do the following operations:
+# Projeto:
+- ✔ Modelagem do item Mercearia Plain Old Java Object (POJO) com ID, nome, quantidade e categoria.
+- ✔ Operações de criação, leitura, atualização e exclusão (CRUD) usando a interface MongoRepository.
+- ✔ Criação de Queries personalizadas através da interface MongoRepository.
+- ✔ Abordagem alternativa para atualizar documentos usando a classe MongoTemplate.
 
-- In our Spring application, we define a grocery item Plain Old Java Object (POJO) with ID, name, quantity, and category.
-- Next, we perform create, read, update, and delete (CRUD) operations using MongoRepository public interface.
-- Finally, we show an alternate approach for updating documents using the MongoTemplate class.
+Obs: Neste projeto do Spring Boot MongoDB, não estou usando o Controller e o View. Vou usar um CommandLineRunner para exibir a saída no console.
 
-Obs: In this Spring Boot MongoDB project, I'm not using the Controller and the View. I'm will use a CommandLineRunner to view the output on the console.
-
-# What We Need
-We need:
-
+# Requisitos:
 - MongoDB 
 - Spring Initializr
 - Maven 
 - VSCode
 
-# New Habilities
-Habilities:
-
+# Habilidades:
 - CRUD
 - NoSQL
 - Queries
